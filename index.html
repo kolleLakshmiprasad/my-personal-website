@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0258e825e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI/Devoloper</p>
+                <h1>Hi, I'm <span>Lakshmi</span><br>Prasad From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="backgroung-Photoroom.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> i am a dedicated and passionate engineer with a strong background 
+                        in machine learning, deep learning, and complex development, with a
+                        background in HTML, CSS, Java, JavaScript, and SQL included My skill
+                        set allows me to develop simple, data-driven applications that are 
+                        powerful back-ends. They blend logic with simple user interfaces. 
+                        I am driven by a passion for finding innovative solutions and a 
+                        commitment to continuous learning, always looking for opportunities 
+                        to apply my technical skills to real world challenges.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Machine Learning</span></li>
+                            <li><span>Deep Learning</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>Java</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Water quality monitoring by using Deep learning at NIT, Puducherry</li>
+                            <li><span>2024</span><br>Devoloping Security for the Smart Electrical Meters at IIT, Hyderabad </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2025</span><br>B-Tech Computer Science in Artificial Intelligence at Madanapalle Institute of Technology & Science, Madanapalle</li>
+                            <li><span>2019 - 2022</span><br>Diploma Mechanical Engineering at Sree Vidyanikethan Engineering College, Tirupathi </li>
+                            <li><span>2018 - 2019</span><br>SSC at Sri Chaitanya School, Rayachoty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---- -------------servecies--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p>i am good at machine learning</p>
+                    <a href="https://github.com/kolleLakshmiprasad?tab=repositories">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Deep Learning</h2>
+                    <p>i am good at Deep learning</p>
+                    <a href="https://github.com/kolleLakshmiprasad?tab=repositories">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Web Development</h2>
+                    <p>i am good at web devolopment</p>
+                    <a href="https://github.com/kolleLakshmiprasad?tab=repositories">learn more</a>
+                </div>
+                <div>
+                    <a href="https://www.hackerrank.com/profile/lakshmiprasad616"><i class="fa-brands fa-hackerrank"></i></a>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Problem Solving</h2>
+                    <p>i am good at Problem solving</p>
+                    <a href="https://www.hackerrank.com/profile/lakshmiprasad616">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pictures/Deep-Learning.jpg" alt="deeplearning">
+                    <div class="layer">
+                        <h3>Deep learning Model</h3>
+                        <p>I have developed a deep learning model by using CNN to 
+                            recognize the images</p>
+                        <a href="https://github.com/kolleLakshmiprasad?tab=repositories"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pictures/machinelearningprojects.jpg" alt="Machinelearning">
+                    <div class="layer">
+                        <h3>Machine learning Model</h3>
+                        <p>I have developed a Machine learning model by using Logistic Regression to 
+                            to predict the Retail price </p>
+                        <a href="https://github.com/kolleLakshmiprasad?tab=repositories"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pictures/web_development.jpg" alt="webdevelopment">
+                    <div class="layer">
+                        <h3>web development</h3>
+                        <p>I have developed some small websites</p>
+                        <a href="https://github.com/kolleLakshmiprasad?tab=repositories"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!--------------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kollelakshmiprasad@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9652932091</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/k.nani.9231712?igsh=MTRmZnhjcXAwandh"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/lakshmi-prasad-a39a01272?"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/kolleLakshmiprasad?tab=repositories"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="Kolle Lakshmi Prasad(resume).pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-copyright"></i>Copyright @ prasad</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxpqm6g7EgD06zwwcJp25tTHWpWQ4PfA1K9vvqCMgFG1IvoVFZ8Tkj36DwUeZzuCQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
